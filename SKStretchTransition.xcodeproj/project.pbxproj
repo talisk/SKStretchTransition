@@ -10,9 +10,9 @@
 		B1113F0D1C5114D300C54CB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1113F0C1C5114D300C54CB9 /* main.m */; };
 		B1113F101C5114D300C54CB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1113F0F1C5114D300C54CB9 /* AppDelegate.m */; };
 		B1113F131C5114D300C54CB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1113F121C5114D300C54CB9 /* ViewController.m */; };
-		B1113F161C5114D300C54CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1113F141C5114D300C54CB9 /* Main.storyboard */; };
 		B1113F181C5114D300C54CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1113F171C5114D300C54CB9 /* Assets.xcassets */; };
 		B1113F1B1C5114D300C54CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1113F191C5114D300C54CB9 /* LaunchScreen.storyboard */; };
+		B1113F241C51152200C54CB9 /* SKStretchAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B1113F231C51152200C54CB9 /* SKStretchAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,11 @@
 		B1113F0F1C5114D300C54CB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B1113F111C5114D300C54CB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B1113F121C5114D300C54CB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B1113F151C5114D300C54CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1113F171C5114D300C54CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1113F1A1C5114D300C54CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1113F1C1C5114D300C54CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1113F221C51152200C54CB9 /* SKStretchAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKStretchAnimation.h; path = Source/SKStretchAnimation.h; sourceTree = "<group>"; };
+		B1113F231C51152200C54CB9 /* SKStretchAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKStretchAnimation.m; path = Source/SKStretchAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,8 @@
 		B1113EFF1C5114D300C54CB9 = {
 			isa = PBXGroup;
 			children = (
+				B1113F221C51152200C54CB9 /* SKStretchAnimation.h */,
+				B1113F231C51152200C54CB9 /* SKStretchAnimation.m */,
 				B1113F0A1C5114D300C54CB9 /* SKStretchTransition */,
 				B1113F091C5114D300C54CB9 /* Products */,
 			);
@@ -62,7 +65,6 @@
 				B1113F0F1C5114D300C54CB9 /* AppDelegate.m */,
 				B1113F111C5114D300C54CB9 /* ViewController.h */,
 				B1113F121C5114D300C54CB9 /* ViewController.m */,
-				B1113F141C5114D300C54CB9 /* Main.storyboard */,
 				B1113F171C5114D300C54CB9 /* Assets.xcassets */,
 				B1113F191C5114D300C54CB9 /* LaunchScreen.storyboard */,
 				B1113F1C1C5114D300C54CB9 /* Info.plist */,
@@ -138,7 +140,6 @@
 			files = (
 				B1113F1B1C5114D300C54CB9 /* LaunchScreen.storyboard in Resources */,
 				B1113F181C5114D300C54CB9 /* Assets.xcassets in Resources */,
-				B1113F161C5114D300C54CB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +152,7 @@
 			files = (
 				B1113F131C5114D300C54CB9 /* ViewController.m in Sources */,
 				B1113F101C5114D300C54CB9 /* AppDelegate.m in Sources */,
+				B1113F241C51152200C54CB9 /* SKStretchAnimation.m in Sources */,
 				B1113F0D1C5114D300C54CB9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +160,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B1113F141C5114D300C54CB9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1113F151C5114D300C54CB9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B1113F191C5114D300C54CB9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
