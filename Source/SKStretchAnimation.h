@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface SKStretchAnimation : NSObject
+typedef NS_ENUM(NSInteger, SKAnimationType) {
+    SKAnimationPresent,
+    SKAnimationDismiss
+};
+
+@interface SKStretchAnimation : NSObject<UIViewControllerAnimatedTransitioning>
+
+@property (nonatomic, assign) SKAnimationType type;
 
 @end

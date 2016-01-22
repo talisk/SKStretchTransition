@@ -13,6 +13,7 @@
 		B1113F181C5114D300C54CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1113F171C5114D300C54CB9 /* Assets.xcassets */; };
 		B1113F1B1C5114D300C54CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1113F191C5114D300C54CB9 /* LaunchScreen.storyboard */; };
 		B1113F241C51152200C54CB9 /* SKStretchAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B1113F231C51152200C54CB9 /* SKStretchAnimation.m */; };
+		B1113F271C51FA1A00C54CB9 /* SKStretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1113F261C51FA1A00C54CB9 /* SKStretchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		B1113F1C1C5114D300C54CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1113F221C51152200C54CB9 /* SKStretchAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKStretchAnimation.h; path = Source/SKStretchAnimation.h; sourceTree = "<group>"; };
 		B1113F231C51152200C54CB9 /* SKStretchAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKStretchAnimation.m; path = Source/SKStretchAnimation.m; sourceTree = "<group>"; };
+		B1113F251C51FA1A00C54CB9 /* SKStretchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKStretchViewController.h; path = Source/SKStretchViewController.h; sourceTree = "<group>"; };
+		B1113F261C51FA1A00C54CB9 /* SKStretchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKStretchViewController.m; path = Source/SKStretchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,8 @@
 		B1113EFF1C5114D300C54CB9 = {
 			isa = PBXGroup;
 			children = (
+				B1113F251C51FA1A00C54CB9 /* SKStretchViewController.h */,
+				B1113F261C51FA1A00C54CB9 /* SKStretchViewController.m */,
 				B1113F221C51152200C54CB9 /* SKStretchAnimation.h */,
 				B1113F231C51152200C54CB9 /* SKStretchAnimation.m */,
 				B1113F0A1C5114D300C54CB9 /* SKStretchTransition */,
@@ -154,6 +159,7 @@
 				B1113F101C5114D300C54CB9 /* AppDelegate.m in Sources */,
 				B1113F241C51152200C54CB9 /* SKStretchAnimation.m in Sources */,
 				B1113F0D1C5114D300C54CB9 /* main.m in Sources */,
+				B1113F271C51FA1A00C54CB9 /* SKStretchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +298,7 @@
 				B1113F211C5114D300C54CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
